@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+#nav {
+    color: white;
+    background-color: #85baff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-content a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header-temp {
+    display: flex;
+    align-items: center; 
+}
+
+.header select{
+    margin-left: 10px;
+    border: 2px solid black;
+    width: 50px;
+    height: 30px;
+}
+#main {
+    border-top: 2px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.temp-block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.day-temp {
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin: 10px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 150px;
+    padding: 20px;
+}
+
+.high-low {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 4%;
+}
+
+.high {
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.low {
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.cookies-block {
+    background-color:  #e7e7e7;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    position: fixed;
+    margin-right: 200px;
+}
+
+.cookie-img {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.accept {
+    background-color: #85baff;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+span{
+    margin-left: 5px;
+} 

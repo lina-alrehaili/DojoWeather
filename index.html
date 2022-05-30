@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navigation  -->
+    <div id="nav">
+        <div>
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="nav-content">
+            <a href="#" onclick="alert('Loading weather report...')">Burbank</a>
+            <a href="#" onclick="alert('Loading weather report...')">Chicago</a>
+            <a href="#" onclick="alert('Loading weather report...')">Dallas</a>
+        </div>
+    </div>
+<!-- Header -->
+    <div class="header">
+        <div class="san">
+            <h2> San Jose</h2>
+        </div>
+        <div class="header-temp">
+            <p>show temperature in </p> <span>
+                <select name="changeT" id="changeT" onchange="changeTemp(this)" >
+                    <option value="C">˚C</option>
+                    <option value="F">˚F</option>
+                </select>
+            </span>
+        </div>
+    </div>
+<!--  Main Page  -->
+    <div id="main">
+<!-- Days & Tempretures -->
+        <div class="temp-block">
+            <div class="day-temp">
+                <h2>Today</h2>
+                <img class="img" src="assets/some_rain.png" alt="someRain"><br>some rain
+                <div class="high-low">
+                    <p class="high"><span>24</span>˚</p>
+                    <p class="low"><span>18</span>˚</p>
+                </div>
+            </div>
+
+            <div class="day-temp">
+                <h2>Tomorrow</h2>
+                <img class="img" src="assets/some_sun.png" alt="someSun"><br>some sun
+                <div class="high-low">
+                    <p class="high"><span>27</span>˚</p>
+                    <p class="low"><span>19</span>˚</p>
+                </div>
+            </div>
+
+            <div class="day-temp">
+                <h2>Friday</h2>
+                <img class="img" src="assets/some_clouds.png" alt="someRain"><br>Some clouds
+                <div class="high-low">
+                    <p class="high"><span>21</span>˚</p>
+                    <p class="low"><span>16</span>˚</p>
+                </div>
+            </div>
+            
+            <div class="day-temp">
+                <h2>Saturday</h2>
+                <img class="img" src="assets/some_sun.png" alt="someSun"><br>some sun
+                <div class="high-low">
+                    <p class="high"><span>26</span>˚</p>
+                    <p class="low"><span>21</span>˚</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookies  -->
+        <div class="cookies-block">
+            <img  class="cookie-img" src="assets/cookie.png" alt="">
+            <div>
+                <h2>Stop! cookie time</h2>
+                <p>we use coolies (sadly not the edible ones) to personalize
+                    content and ads, to provie social media features and to
+                    analyse our traffic. <a href="#">Read more..</a></p>
+            </div>
+            <button class="accept" onclick="remove()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
